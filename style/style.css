@@ -1,0 +1,84 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: rgba(24, 24, 24, 1);
+}
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+}
+
+.btn-primary{
+    background-color: rgba(253, 110, 10, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 64px;
+
+}
+
+
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+
+}
+.banner-contant{
+    width: 580px;
+    height: 380px;
+}
+
+.banner-welcome {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-image{
+    width: 580px;
+    height: 678px;
+}
