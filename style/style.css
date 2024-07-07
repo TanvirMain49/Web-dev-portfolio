@@ -45,6 +45,10 @@
     
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* Header */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -117,14 +121,17 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px; 
+    margin-bottom: 130px;
+}
 
 /* About */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
-    
+   
 }
 
 .about-info{
@@ -144,3 +151,40 @@ main{
     padding: 3px;
     border: 1px solid black;
 }
+
+/* What I do section */
+.skills-section{
+
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+    padding: 0px 24px 16px 26px;
+    font-size: 18px;
+    
+}
+
+.skills-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.skill-title{
+    margin-top: 40px;
+}
+
+.skill img{
+     padding:  12px 7px ; 
+}
+
+
+
