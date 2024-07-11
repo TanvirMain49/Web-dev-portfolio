@@ -41,8 +41,7 @@
     font-weight: bold;
 }
 .section-description{
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
 .text-center{
@@ -127,11 +126,18 @@ main section{
 }
 
 /* About */
+
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 0px 150px;
     text-align: center;
    
+}
+.about-box-container h2{
+    margin-top: 24px;
+}
+.about-box-container h2{
+    margin-bottom: 42px;
 }
 
 .about-info{
@@ -142,9 +148,13 @@ main section{
 .info-description{
     font-size: 20px;
     font-weight: bold;
+
 }
 .info-title{
     font-size: 20px;
+
+
+
 }
 .about-box{
     background-color: rgba(255, 255, 255, 1);
