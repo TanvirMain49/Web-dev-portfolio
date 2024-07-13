@@ -262,14 +262,15 @@ footer input[type ="text"], footer input[type = "email"] , footer textarea{
 }
 
 /* Responsive */
-.hide{
-    display: none;
-}
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 566px) {
     .skills-section, footer, .about-info, nav, nav>ul{
         flex-direction: column;
     }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
     nav>ul{
         gap: 20px;
     }
@@ -297,7 +298,6 @@ footer input[type ="text"], footer input[type = "email"] , footer textarea{
         margin-top:80px;
         width: 100%;
         height: 100%;
-
     }
 
     footer{
@@ -311,6 +311,38 @@ footer input[type ="text"], footer input[type = "email"] , footer textarea{
     }
     .about{
         padding : 20px
+    }
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width:990px) {
+
+    .banner, .about-info, .resume-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-image{
+        margin-top: 220px;
+        width: 100%;
+        height: 100%;
+    }
+    .skills-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resume-container, footer{
+       padding: 20px;
+    }
+
+    .resume-coloumn, .experience{
+        padding: 10px;
+    }
+
+    footer input[type ="text"], footer input[type = "email"] , footer textarea{
+        width: calc(100% - 40px);
     }
     
 }
